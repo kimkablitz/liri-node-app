@@ -8,4 +8,6 @@ when user leaves movie Title empty, Liri will redirect them to the well known mo
 ## LiriBot ScreenCastify
 
 
-[![Youtube Recording of LiriBot(./lirishot.png)](https://youtu.be/trp6ghhohcI)
+
+[![Youtube Recording of LiriBot](./lirishot.png)](https://youtu.be/trp6ghhohcI)
+
