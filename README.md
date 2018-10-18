@@ -6,5 +6,6 @@ A search engine that allows users to search for songs, movies and concerts . Whe
 when user leaves movie Title empty, Liri will redirect them to the well known movie " Mr. Nobody"
 
 ## LiriBot ScreenCastify
-[Youtube Recording of LiriBot](https://youtu.be/trp6ghhohcI)
 
+
+[![Youtube Recording of LiriBot(./lirishot.png)](https://youtu.be/trp6ghhohcI)

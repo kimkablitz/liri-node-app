@@ -74,7 +74,7 @@ function RetrieveMovie(movieTitle) {
       "http://www.omdbapi.com/?apikey=" + keys.omdb.omdbKeys + "&i=tt0485947";
   }
   request(url, function(error, response, body) {
-    // console.log(body);
+  
     if (!error && response.statusCode === 200) {
       var searchArray = JSON.parse(body);
 
@@ -125,10 +125,9 @@ function RetrieveBand(bandName) {
 }
 
 function DoRandom() {
-  console.log("what time is it?");
+  // console.log("what time is it?");
   var fs = require("fs");
   fs.readFile("random.txt", "utf8", function(error, data) {
-    // If the code experiences any errors it will log the error to the console.
     if (error) {
       return console.log(error);
     }
